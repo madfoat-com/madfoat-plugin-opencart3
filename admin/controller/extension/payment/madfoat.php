@@ -3,7 +3,7 @@ class ControllerExtensionPaymentMadfoat extends Controller {
 	private $error = array();
 
 	public function index() {
-		$this->load->language('extension/payment/madfoat');
+		$this->load->language('extension/payment/madfoat'); 
 		$this->document->setTitle($this->language->get('heading_title'));
 		$this->load->model('setting/setting');
 
